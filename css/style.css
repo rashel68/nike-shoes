@@ -1,0 +1,29 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header-part{
+    background-color: #FFF9F4;
+   
+}
+.mr-link{
+    color: #3c3c3c;
+}
+.mr-link:hover{
+    color: red;
+}
+.banner-image{
+    transition: transform 0.5s;
+}
+.header-part:hover .banner-image{
+    transform: scale(0.96);
+}
+.product img{
+    transition: transform 0.4s;
+}
+.product-item:hover .product img{
+    transform: rotate(10deg);
+}
